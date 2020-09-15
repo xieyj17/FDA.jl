@@ -14,7 +14,7 @@ It can generate basis functions, smooth discretely observed functions with speci
 
 The example [test/runtests.jl](test/runtests.jl) demonstrates the usage and produces the following output:
 
-![results](rest/sample.png)
+![results](test/sample.png)
 
 
 ## Acknowledgments
