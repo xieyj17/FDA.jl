@@ -127,10 +127,10 @@ function eval_fd(eval_grid, fdobj)
     if fdobj.basis_type == "BSpline"
         Psi_matrix = basismatrix(basis, eval_grid)
     elseif fdobj.basis_type == "Fourier"
-        Psi_matrix = zeros(length(argvals), length(basis))
+        Psi_matrix = zeros(length(eval_grid), length(basis))
         for i in 1:length(basis)
             tf = basis[i]
-            Psi_matrix[:,i] = tf.(argvals)
+            Psi_matrix[:,i] = tf.(eval_grid)
         end
     end
     obs = Psi_matrix * coefs
