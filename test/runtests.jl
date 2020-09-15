@@ -13,5 +13,5 @@ using CSV
     smooth_curve = eval_fd(argvals, temp_coefs)
 
     plot(argvals, smooth_curve[:,1], label = "Smoothed curve", lw = 3)
-    plot!(argvals, y[:,1],  label = "Observed curve", lw = 3)
+    plot!(argvals, y[:,1], seriestype = :scatter, label = "Discrete observations", lw = 3)
 end
