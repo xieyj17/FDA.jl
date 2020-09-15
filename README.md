@@ -1,4 +1,4 @@
-# FDA - Functional Data Analysis
+# FDA.jl - Functional Data Analysis
 
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://xieyj17.github.io/FDA.jl/dev)
 [![Build Status](https://travis-ci.com/xieyj17/FDA.jl.svg?branch=master)](https://travis-ci.com/xieyj17/FDA.jl)
